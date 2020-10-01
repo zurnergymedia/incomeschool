@@ -248,3 +248,17 @@ $(document).ready(function(){
 
 
  });
+
+
+ // Sign up
+
+ function checkpassword() {
+  var pas=f.pass.value;
+  var confpas=f.confpass.value;
+  
+  if (pas == confpas) 
+  alert("Password equals confirm password")
+  
+  else
+  alert("Password not equal to confirm password")
+}
